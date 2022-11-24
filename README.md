@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Writing Tests with Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### In this project we create a Faucet contract along with a number of tests to go with it using hardhat and ethers.js. Clone the project and install dependencies with... `npm install` <br> To compile the project run... `truffle compile` <br> To run tests.... `npx hardhat test` <br> To deploy the contract... `npx hardhat run scripts/deploy.js --network localhost`
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
